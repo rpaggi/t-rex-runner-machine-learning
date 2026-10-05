@@ -1,1 +1,16 @@
 .DS_Store
+node_modules/
+dist/
+.vscode/
+.claude/
+
+# ambiente Python do treino (9 GB)
+fine-tunning/venv-yolo/
+
+# pesos base do YOLO (baixados automaticamente pelo Ultralytics)
+*/yolov8n.pt
+fine-tunning/trex-runner.v1i.yolov8/yolov8n.pt
+
+# artefatos intermediários da exportação do treino; fica só o best.pt
+runs/detect/train/weights/*
+!runs/detect/train/weights/best.pt

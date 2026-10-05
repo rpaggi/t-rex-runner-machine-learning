@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 // extract from chromium source code by @liuwayong
+import main from './machine-learning/main'
 (function () {
     'use strict';
     /**
@@ -2746,7 +2747,8 @@
 
 
 function onDocumentLoad() {
-    new Runner('.interstitial-wrapper');
+    const game = new Runner('.interstitial-wrapper');
+    main(game).catch(console.error)
 }
 
 document.addEventListener('DOMContentLoaded', onDocumentLoad);

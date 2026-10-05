@@ -1,0 +1,28 @@
+{
+  "name": "t-rex-runner",
+  "version": "1.0.0",
+  "description": "the trex runner game extracted from chrome offline err page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayou/t-rex-runner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wayou/t-rex-runner/issues"
+  },
+  "homepage": "https://github.com/wayou/t-rex-runner#readme",
+  "dependencies": {
+    "webpack-dev-server": "^6.0.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^14.0.0",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3"
+  }
+}

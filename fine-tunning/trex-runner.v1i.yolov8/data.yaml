@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['cacto', 'dino', 'ptero']
+
+roboflow:
+  workspace: ronaldo-cesar-paggi
+  project: trex-runner
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/ronaldo-cesar-paggi/trex-runner/dataset/1
